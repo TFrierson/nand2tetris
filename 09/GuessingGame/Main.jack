@@ -1,0 +1,16 @@
+//This program selects a number 5 then prompts a user to guess the number.
+
+class Main{
+	function void main(){
+		var int numberToGuess, userGuess;
+		let numberToGuess = 5;
+		let userGuess = Keyboard.readInt("Guess a number between 0 and 10: ");
+		
+		while(~(userGuess = numberToGuess)){
+			let userGuess = Keyboard.readInt("Incorrect. Guess again: ");}
+
+		do Output.printString("Correct!");
+		do Output.println();
+
+		return;}
+}
